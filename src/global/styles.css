@@ -5,3 +5,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom css */
+@layer utilities {
+  .custom-shadow {
+    @apply shadow-sm;
+    box-shadow: rgba(48, 56, 64, 0.1) 0px 2px 0px inset,
+      rgb(9, 11, 11) 0px -2px 0px inset, rgb(9, 11, 11) 0px 1px 2px 0px;
+  }
+}

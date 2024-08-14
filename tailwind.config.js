@@ -9,7 +9,16 @@ export default {
         sans: ["IBM Plex Sans", ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        primary: "#007FFF",
+        primary: {
+          default: "#007FFF",
+          light: "#66B2FF",
+        },
+        neutrals: {
+          500: "#1D2126",
+          400: "#3D4751",
+          300: "#303840",
+          200: "#98A2B2",
+        },
         dark_bg: "#0F1214",
       },
     },
