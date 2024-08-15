@@ -1,9 +1,9 @@
-import Header from "./ui/Header";
+import Dashboard from "./ui/Dashboard";
 
 function App() {
   return (
     <div>
-      <Header />
+      <Dashboard />
     </div>
   );
 }
